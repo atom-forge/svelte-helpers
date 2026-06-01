@@ -5,6 +5,10 @@
 		"name": "Gergely Laborci",
 		"url": "https://github.com/laborci"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/atom-forge/svelte-helpers"
+	},
 	"description": "Svelte helper utilities, types and components",
 	"license": "MIT",
 	"scripts": {
