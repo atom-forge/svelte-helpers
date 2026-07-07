@@ -20,7 +20,9 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"package": "svelte-package",
-		"release": "bun publish"
+		"release": "bun publish",
+		"pub-check": "bun run scripts/pub-check.ts",
+		"pub": "bun run scripts/pub.ts"
 	},
 	"files": [
 		"dist",
