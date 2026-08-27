@@ -20,7 +20,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"package": "svelte-package",
-		"release": "bun publish",
+		"prepublishOnly": "bun run prepack",
+		"release": "npm publish --access public",
 		"pub-check": "bun run scripts/pub-check.ts",
 		"pub": "bun run scripts/pub.ts"
 	},
@@ -29,7 +30,8 @@
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*",
 		"README.md",
-		"LICENSE"
+		"LICENSE",
+		"CHANGELOG.md"
 	],
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
