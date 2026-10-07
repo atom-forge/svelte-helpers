@@ -30,6 +30,8 @@
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*",
 		"README.md",
+		"README-AI.md",
+		"docs",
 		"LICENSE",
 		"CHANGELOG.md"
 	],
