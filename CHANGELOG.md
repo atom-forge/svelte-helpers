@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [0.0.4] - 2026-10-07
+
 ### Added
 
 - Add an AI-agent README with project context and documentation links, and a development guide covering repository layout, validation, and packaging.
